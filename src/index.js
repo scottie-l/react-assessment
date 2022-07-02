@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import 'index.css';
 import MainFunctional from "./components/mainFunctional";
 class App extends Component {
   render() {
