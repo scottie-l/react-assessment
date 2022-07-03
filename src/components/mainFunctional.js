@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
-import starwars from "../APIs/starwars";
+
+import cats from "../APIs/cats.js";
+import starwars from "../APIs/starwars.js";
+
+
 
 function MainFunctional() {
   const [data, setData] = useState([]);
