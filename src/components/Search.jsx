@@ -9,7 +9,7 @@ function Search() {
             let url;
             if ((window.location.href).split('=')[1] !== undefined) {
                 let temp = (window.location.href).split('='[1],
-                url = '/*url/${temp}',
+                url = '/*url/${temp}';
             } else {
                 url = '/*url';
             }
